@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        /*
+            falsy values
+            truthly values
+        */
+
+        // falsy values
+        if (false) console.log("not executed");
+        if (0) console.log("not executed");
+        if ("") console.log("not executed");
+        if (null) console.log("not executed");
+        if (undefined) console.log("not executed");
+        if (NaN) console.log("not executed");
+        
+        // truthly values
+        if (true) console.log("executed");
+        if (-1) console.log("executed");
+        if (" ") console.log("executed");
+        if ([]) console.log("executed");
+        if ({}) console.log("executed");
+        if (function test() {}) console.log("executed");
+        
+    </script>
+</body>
+</html>
